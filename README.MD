@@ -2,7 +2,7 @@
 
 What I have learned will be my blade.(A personal learning note)
 
-## What does the name this repository mean
+## What does the name of this repository mean
 
 Yaiba - 刃(やいば) in ja_JP, also known as "Blade" in English.
 
