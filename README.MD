@@ -20,6 +20,7 @@ This repository records what I have learned.
  - Some libraries and usage
  - Sample codes
  - Some solutions I came up with
+ - Some tutorials
 
 ## License
 
