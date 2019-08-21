@@ -55,8 +55,7 @@ ExecStart=/usr/sbin/ifconfig tb up
 ExecStart=/usr/sbin/ifconfig tb inet6 add [*Routed* IPv6 address with /128 CIDR]
 ExecStart=/usr/sbin/ifconfig tb mtu 1480
 ExecStart=/usr/sbin/route -A inet6 add ::/0 dev tb
-# If your host provides ipv6 route, uncomment this
-# ExecStart=/usr/sbin/route -A inet6 del ::/0 dev venet0
+ExecStart=/usr/sbin/route -A inet6 del ::/0 dev venet0
 ExecStop=/usr/sbin/ifconfig tb down
 
 [Install]
